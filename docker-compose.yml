@@ -1,0 +1,9 @@
+services:
+  site:
+    image: basic-pug-site
+    ports:
+      - 8080:8080
+    volumes:
+      - ./public:/srv/public
+      - ./files:/srv/files
+      - ./views:/srv/views
