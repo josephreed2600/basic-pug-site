@@ -18,4 +18,6 @@ Runtime for throwing together a super simple (think small business or public sch
  - `status` is the status code of the HTTP response
  - `customErr` is a custom message the server would like to share with the user/client. not used as of the first release
 
+`public/` maps to `/static/` and `files/` maps to `/doc/`.
+
 The thing serves HTTP on tcp/8080. Use a reverse proxy for TLS and HTTP/2 and forwarding to 80/443, don't do that in the application. Thanks
