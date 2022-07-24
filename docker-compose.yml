@@ -1,6 +1,6 @@
 services:
   site:
-    image: basic-pug-site
+    image: jtreed/basic-pug-site
     ports:
       - 8080:8080
     volumes:
