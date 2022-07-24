@@ -7,8 +7,8 @@ Runtime for throwing together a super simple (think small business or public sch
  1. Put your assets (css, scripts, images) in `public/`
  1. Put your downloadable junk (pdfs and stuff) in `files/`
  1. Put your Pug templates in `views/`
-   - The default page when you load `/` is `views/index.pug`
-   - Error pages are rendered with `views/error.pug`, see "More magic" for variables
+    - The default page when you load `/` is `views/index.pug`
+    - Error pages are rendered with `views/error.pug`, see "More magic" for variables
  1. Run with `docker-compose up` or whatever
 
 # More magic
